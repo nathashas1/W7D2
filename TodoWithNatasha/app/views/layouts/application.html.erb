@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TodoWithNatasha</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all' %>
+    <%= javascript_include_tag 'application' %>
+    <script>
+    document.addEventListener("DOMContentLoaded", function(){
+      console.log('page loaded');
+      console.log($);
+      console.log($.ajax);
+    });
+    </script>
+  </head>
+
+  <body>
+    <%= yield %>
+  </body>
+</html>

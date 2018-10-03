@@ -1,0 +1,28 @@
+
+.todo-form input, .step-form input, .todo-form textarea, .step-form textarea {
+  margin: 10px 10px;
+  border: 1px solid #00BCD4;
+  border-radius: 3px;
+}
+
+a {
+  cursor: pointer;
+}
+
+.step-list {
+  margin-left: 20px;
+}
+.step-list .step-header {
+  margin: 20px 0;
+  list-style: none;
+}
+.step-list .step-header .step-info {
+  width: 70%;
+}
+
+.step-form {
+  background-color: #B2EBF2;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px 0;
+}
